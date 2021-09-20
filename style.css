@@ -6,7 +6,7 @@
 .dark-blues-5-hex { color: #BFBEBC; }
 
 .body {
-    background-color: #BFBEBC;
+    background-color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,10 +16,4 @@
     font-weight: bold;
     font-size: 250%;
     margin: 3%;
-}
-
-@media screen and (max-width: 560px) {
-    .body {
-        background-color: #FFFFFF;
-    }
 }

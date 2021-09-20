@@ -31,7 +31,7 @@
 }
 
 .main-certificados-lista-item {
-    color: #D8D6D5;
+    color: #FFFFFF;
     display: inline-block;
     width: 30%;
     font-size: 150%;
@@ -97,7 +97,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    
+
     .main-contatos-lista {
         display: block;
     }
@@ -151,6 +151,15 @@
 
     .main-contatos-lista-itens {
         font-size: 100%;
+        margin: 3% 0;
+    }
+
+    .main-contatos-lista-link {
+        font-weight: bold;
+    }
+
+    .main-contatos-lista-link::after {
+        content: "🔗";
     }
 
     .main-minha-imagem {
