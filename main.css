@@ -97,6 +97,7 @@
 }
 
 @media screen and (max-width: 1024px) {
+    
     .main-contatos-lista {
         display: block;
     }
@@ -124,6 +125,7 @@
 }
 
 @media screen and (max-width: 560px) {
+
     .main-minha-imagem-sobre-mim {
         position: relative;
         left: 27.5%;
@@ -146,7 +148,7 @@
         width: 100%;
         padding: 3%;
     }
-    
+
     .main-contatos-lista-itens {
         font-size: 100%;
     }

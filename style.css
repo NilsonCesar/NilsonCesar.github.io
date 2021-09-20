@@ -17,3 +17,9 @@
     font-size: 250%;
     margin: 3%;
 }
+
+@media screen and (max-width: 560px) {
+    .body {
+        background-color: #FFFFFF;
+    }
+}
