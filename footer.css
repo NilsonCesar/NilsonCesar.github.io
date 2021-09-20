@@ -10,3 +10,9 @@
     font-size: 3em;
     font-weight: bold;
 }
+
+@media screen and (max-width: 560px) {
+    .footer-titulo {
+        font-size: 1.5em;
+    }
+}

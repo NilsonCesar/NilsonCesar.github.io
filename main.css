@@ -124,5 +124,36 @@
 }
 
 @media screen and (max-width: 560px) {
+    .main-minha-imagem-sobre-mim {
+        position: relative;
+        left: 27.5%;
+        width: 45%;
+    }
 
+    .main-certificados-lista {
+        text-align: center;
+    }
+
+    a:-webkit-any-link {
+        text-decoration: none;
+    }
+
+    .main-certificados-lista-item {
+        display: block;
+        border-radius: 0%;
+        margin: 0% auto;
+        margin-bottom: 3%;
+        width: 100%;
+        padding: 3%;
+    }
+    
+    .main-contatos-lista-itens {
+        font-size: 100%;
+    }
+
+    .main-minha-imagem {
+        position: relative;
+        left: 27.5%;
+        width: 45%;
+    }
 }
