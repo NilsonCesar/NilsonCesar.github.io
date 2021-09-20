@@ -1,0 +1,45 @@
+.header {
+    background-color: #131829;
+    padding: 7%;
+}
+
+.header-titulo {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+
+    position: relative;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation {
+    animation: blinkCursor 800ms infinite normal, typing 4s 500ms normal both;
+}
+
+@keyframes typing {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 10.80em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
