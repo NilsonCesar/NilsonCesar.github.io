@@ -149,6 +149,10 @@
         padding: 3%;
     }
 
+    .main-contatos-lista {
+        margin: 0 10%;
+    }
+
     .main-contatos-lista-itens {
         font-size: 100%;
         margin: 3% 0;
