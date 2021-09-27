@@ -122,6 +122,10 @@
     .main-certificados-lista-item-outros {
         background: #1e227e;
     }
+
+    .main-contatos-lista {
+        margin: 0 23%;
+    }
 }
 
 @media screen and (max-width: 560px) {
