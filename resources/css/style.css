@@ -146,6 +146,10 @@ footer span {
         width: 100%;
     }
 
+    figure {
+        width: 100%;
+    }
+
     .skills-container {
         flex-wrap: wrap;
         justify-content: space-around;
