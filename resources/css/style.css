@@ -76,3 +76,17 @@ figure {
 #bot-img {
     width: 100%;
 }
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    margin-top: 8px;
+}
+
+.icon img {
+    width: 50px;
+}
