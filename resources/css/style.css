@@ -90,3 +90,25 @@ figure {
 .icon img {
     width: 50px;
 }
+
+.contact-link-container {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.contact-link img {
+    width: 50px;
+    margin-right: 16px;
+}
+
+footer {
+    padding-bottom: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer span {
+    color: red;
+}
