@@ -5,6 +5,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    text-align: justify;
 }
 
 h2 {
@@ -111,4 +112,37 @@ footer {
 
 footer span {
     color: red;
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        font-size: 24px;
+    }
+
+    header nav {
+        font-size: 16px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .about-me-container {
+        margin: 0;
+        display: block;
+    }
+
+    .about-me-container img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .project img {
+        width: 100%;
+    }
+
+    .skills-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
