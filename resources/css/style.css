@@ -1,0 +1,73 @@
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    padding: 0 16px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: "Proza Libre", sans-serif;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+
+#logo {
+    margin: 0;
+}
+
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+.navigation-item {
+    margin: 8px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+a {
+    color: #323232;
+    text-decoration: none;
+    font-weight: 600;
+}
