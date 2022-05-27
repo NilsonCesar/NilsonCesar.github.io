@@ -1,0 +1,27 @@
+.depoimento-jaiminho {
+    background-color: #0B2B40;
+    color: #EEEEEED0;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.depoimento-jaiminho p {
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    line-height: 130%;
+    margin: 0 5%;
+}
+
+.depoimento-jaiminho p spam {
+    display: block;
+    text-decoration: underline;
+}
+
+.depoimento-jaiminho img {
+    display: inline;
+    opacity: 55%;
+    width: 125%;
+}

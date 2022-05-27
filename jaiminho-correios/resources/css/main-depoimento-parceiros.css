@@ -1,0 +1,48 @@
+.depoimento-parceiros {
+    padding: 5% 0;
+    background-color: #F27457;
+    color: #EEEEEED0;
+    text-align: center;
+}
+
+.depoimento-lista {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.depoimento-lista li {
+    display: inline-block;
+    width: 30%;
+    padding: 3%;
+    line-height: 140%;
+}
+
+.depoimento-conteudo {
+    padding: 5%;
+    background-color: #BD4848;
+    height: 100%;
+    border-radius: 3%;
+}
+
+.depoimento-parceiros h2 {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.depoimento-parceiros img {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    border-radius: 100%;
+}
+
+.depoimento-lista-nome {
+    text-align: center;
+    font-size: 140%;
+}
+
+.depoimento-lista-texto {
+    text-align: justify;
+    font-size: 110%;
+}

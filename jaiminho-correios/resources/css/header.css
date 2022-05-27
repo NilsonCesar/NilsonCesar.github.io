@@ -1,0 +1,26 @@
+header {
+    background-color: #024959;
+    color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jaiminho-header{
+    display: inline-block;
+}
+
+.header-titulo {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+.header-titulo h1 {
+    font-size: 250%;
+}
+
+.header-titulo h2 {
+    font-size: 150%;
+}

@@ -1,0 +1,22 @@
+.about {
+    background-color: #FCAC68;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #EEEEEED0;
+    font-size: 150%;
+}
+
+.about p {
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    line-height: 130%;
+}
+
+.about img {
+    display: inline-block;
+    width: 45%;
+}
